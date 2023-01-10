@@ -143,6 +143,8 @@ The specified policy overrides the policies set for the application and the syst
 
 The  <b>DWORD</b> or <b>DWORD64</b> pointed to by <i>lpValue</i> can be one or more of the values listed in the remarks.
 
+The set of values supported for <i>lpValue</i> can be queried by calling the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy">GetProcessMitigationPolicy</a> function, by using <i>ProcessMitigationOptionsMask</i> in the <i>MitigationPolicy</i> parameter.
+
 Supported in Windows 7 and newer and Windows Server 2008 R2 and newer.
 
 </td>
